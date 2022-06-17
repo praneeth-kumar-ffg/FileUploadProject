@@ -21,7 +21,7 @@ and "npm start" to trigger the localhost:3000.
 2.Head over to the mysite directory which is our backend app.
 
 3. Run the following commands in the same directory as `manage.py`:  
-   `pipenv install` and `pipenv install --dev`. If pipenv not present install via pip.
+   `pipenv install` and `pipenv install --dev`(install all packages). If pipenv not present install via pip.
    
 4. After setting up your database with configurations found in settings.py inside mysite directory, Run
    i)python manage.py makemigrations
