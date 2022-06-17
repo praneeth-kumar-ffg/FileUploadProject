@@ -18,7 +18,7 @@ download nodejs and npm for frontend.  Python for backend. Postgres for database
 1.Head over to the client directory which is out frontend and run npm install(downloads all packages).
 and "npm start" to trigger the localhost:3000.
 ## backend
-2.Head over to the mysite directory which is our backend app.
+2.Head over to the mysite directory which is our backend app. Create a python virtual environment
 
 3. Run the following commands in the same directory as `manage.py`:  
    `pipenv install` and `pipenv install --dev`(install all packages). If pipenv not present install via pip.
