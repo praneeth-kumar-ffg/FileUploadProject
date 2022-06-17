@@ -26,6 +26,7 @@ and "npm start" to trigger the localhost:3000.
 4. After setting up your database with configurations found in settings.py inside mysite directory, Run
 
    i)python manage.py makemigrations
+   
    ii)python manage.py migrate
    to migrate the data to postgres.
    and finally "python manage.py runserver" to start the backend application.
