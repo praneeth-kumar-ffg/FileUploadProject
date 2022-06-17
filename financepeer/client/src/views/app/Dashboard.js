@@ -63,6 +63,8 @@ const Dashboard = () => {
             <h2>Welcome {userEmail}!</h2>
         </Fragment>
           )}
+          <br />
+          <br />
           <Link className="buttonorange" to="/viewdata">
               <FontAwesomeIcon icon={faBookOpenReader}  />
               {' '}
@@ -71,6 +73,7 @@ const Dashboard = () => {
           <br />
           <br />
           <h3 className="txt">Upload Json File Only</h3>
+ 
       <label>
         <input type="file" onChange={(evt) => setCover(evt.target.files[0])}/>
       </label>

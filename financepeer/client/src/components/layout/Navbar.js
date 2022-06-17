@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoins, faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+import { faCoins, faArrowRightFromBracket, faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [isAuth, setIsAuth] = useState(false);
@@ -37,8 +37,10 @@ const Navbar = () => {
           </Fragment>
         ) : (
           <Fragment>
-            {' '}
-             <Link to='/login' className="buttongreen">Login Page</Link>
+            <Link to='/login' className="buttongreen">
+                <FontAwesomeIcon icon={faArrowRightToBracket} />
+                {' '}
+                Login Page</Link>
             {'  '}
             <Link to='/signup' className="buttongreen">Signup Page</Link>
           </Fragment>
