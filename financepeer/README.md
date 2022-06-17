@@ -24,6 +24,7 @@ and "npm start" to trigger the localhost:3000.
    `pipenv install` and `pipenv install --dev`(install all packages). If pipenv not present install via pip.
    
 4. After setting up your database with configurations found in settings.py inside mysite directory, Run
+
    i)python manage.py makemigrations
    ii)python manage.py migrate
    to migrate the data to postgres.
