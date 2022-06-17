@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+    background-color: #d3d3d3;
+    color: #282c34;
+    height: 100vh;
+    min-height: 100vh
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+.buttonred {
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.buttongreen {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.buttonblue {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.buttonorange {
+    background-color: darkorange;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+
+.txt {
+    color: grey;
+}
+
+.title {
+    background-color: #a9a9a9;
+    color: #808000;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.sidebtn{
+    text-align:end;
+}
