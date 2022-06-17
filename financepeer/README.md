@@ -1,8 +1,8 @@
-# Django React Auth
+# Json File Upload
 
 ## Overview
 
-Django React Auth is a simple user authentication demonstration that uses
+FinancePeer is a simple user authentication demonstration that uses
 Django, and the Django Rest Framework on the backend, and React on the frontend.
 
 ## Dependencies
@@ -13,20 +13,19 @@ Django, and the Django Rest Framework on the backend, and React on the frontend.
 
 ## Installation
 
-The project is setup using pipenv, and create-react-app. Follow these steps after
-cloning the repository to get it up and running.
+download nodejs and npm for frontend.  Python for backend. Postgres for database.
+## frontend
+1.Head over to the client directory which is out frontend and run npm install(downloads all packages).
+and "npm start" to trigger the localhost:3000.
+## backend
+2.Head over to the mysite directory which is our backend app.
 
-1. Run the following commands in the same directory as `manage.py`:  
-   `pipenv install` and `pipenv install --dev`
+3. Run the following commands in the same directory as `manage.py`:  
+   `pipenv install` and `pipenv install --dev`(install all packages). If pipenv not present install via pip.
+   
+4. After setting up your database with configurations found in settings.py inside mysite directory, Run
+   i)python manage.py makemigrations
+   ii)python manage.py migrate
+   to migrate the data to postgres.
+   and finally "python manage.py runserver" to start the backend application.
 
-2. Next create a `local_settings.py` file inside of the `mysite` directory.
-   create 3 variables inside of it:
-
-- secret_key - this is equal to a string
-- debug - this is a boolean value (True, or False)
-- allowed_hosts - this is an array
-
-Note that `local_settings.py` is in the gitignore.
-
-3. Now run the django migrations. In the same directory as `manage.py` run:  
-   `python manage.py migrate`
